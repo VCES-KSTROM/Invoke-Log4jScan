@@ -3,7 +3,7 @@ function Invoke-Log4jScan {
     .SYNOPSIS
         Scans disk for trace of log4j
     .DESCRIPTION
-        Recursively scans disks for filenames matching log4j or jar files containing log4j.
+        Recursively scans disks for filenames matching log4j and jar files containing log4j.
         If match if found a PSCustomObject is created
         [PSCustomObject]@{
             File      = <Name of file>
